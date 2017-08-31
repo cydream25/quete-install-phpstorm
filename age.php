@@ -5,6 +5,8 @@
  * Date: 31/08/17
  * Time: 16:11
  */
+$somme=0;
+
 $students = [
     "Emmanuel"  => 42,
     "Thierry"   => 51,
@@ -19,3 +21,5 @@ foreach ($students as $name=>$age) {
 }
 
 echo "moyenne d'age : ".$somme/count($students)."\n";
+
+//ajout
